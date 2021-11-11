@@ -15,3 +15,7 @@ function addressAt(index, linkedList, collection){
       return node.next
     }
 }
+
+function headNode(linkedList, collection){
+    return collection[linkedList]
+}
